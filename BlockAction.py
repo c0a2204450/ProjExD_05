@@ -267,9 +267,10 @@ def main(screen: pg.Surface, screen_size: np.array) -> bool | None:
     enemys.add(Enemy(6*block, 1*block))
     enemys.add(Enemy(18*block+20, 1*block))
     enemys.add(Enemy(14*block, 1*block))
-        
+    """
     for i in block_list_omake:  #おまけ。
         field_adds.append(Field(np.array(i) * block))
+    """
 
     goal = Goal([24 * block + 5, 1 * block])
 
